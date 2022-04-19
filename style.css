@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: white;
+}
+
+.centerAlign {
+    text-align: center;
+}
+
+.home {
+    color: #ddd;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.3)
+        ),
+        url("https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_1280.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 650px;
+    font-family: "Lato", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_bar {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+}
+
+.menu_items {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.contact_button {
+    border-width: 2px;
+    border-color: #ddd;
+    border-style: solid;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.contact_button:hover {
+    background-color: #ff6363;
+    border-color: #f44336;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.about_me {
+    height: 550px;
+    width: 70%;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.my_projects {
+    background-color: #035397;
+    padding: 30px 30px;
+    color: white;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project_single {
+    width: 20%;
+    margin: 50px 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.buttons {
+    background-color: #035397;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    border-radius: 40%;
+    border-color: white;
+    border-style: solid;
+}
+
+.differentiator {
+    padding-top: 3%;
+}
+
+.features {
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
+}
+
+.feature {
+    display: flex;
+}
+
+.features_set {
+    font-size: 1rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+}
+
+.skill_set {
+    margin-top: -100px;
+}
+
+.skills_metrics {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.skills {
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #035397;
+}
+
+.branding {
+    width: 85%;
+}
+
+.visual_design {
+    width: 95%;
+}
+
+.storyboarding {
+    width: 80%;
+}
+
+.strategy {
+    width: 75%;
+}
+
+.experiences {
+    background-color: #035397;
+    padding: 50px;
+    color: white;
+}
+
+.story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    text-align: justify;
+    padding: 2rem;
+}
